@@ -23,15 +23,3 @@ jobs:
         run: |
           jq  -r '.words[]' .vscode/cspell.json   > .github/mydict.txt
           textidote --dict .github/mydict.txt --check de **/*.md
-  cspells-spellchecking:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        name: Check out the code
-      - uses: actions/setup-node@v1
-        name: Run spell check
-        with:
-          node-version: "12"
-      - run: npm install -g cspell
-      - run: |
-          cspell --config ./vscode/cspell.json README.md
