@@ -21,5 +21,5 @@ jobs:
           rm textidote_0.8.2_all.deb
       - name: Grammar/Spell check files
         run: |
-          jq  -r '.words[]' .vscode/cspell.json   > .github/mydict.txt
+          jq  -r '.words[]' .vscode/cspell.json >> .github/mydict.txt
           textidote --dict .github/mydict.txt --check en **/*.md
