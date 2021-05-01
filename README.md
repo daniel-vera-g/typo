@@ -71,7 +71,7 @@ The next recipes make use of the _optional_ dependencies:
 4. Lint markdown files: `make lint`
 5. Automatically try to fix markdown files: `make fix`
 6. Try to format markdown files automatically: `make format`
-7. Check language and grammar: `make check-lang
+7. Check language and grammar: `make check-lang`
 8. Sync wordlist(See next chapter for details): `make sync-wl`
 9. Convert svg files to pdf f.ex for the cover(Needs `inkscape` installed): `make svg-to-pdf`
 
