@@ -1,0 +1,22 @@
+{
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
+  },
+  "dictCompletion.externalUserDictFiles": [
+    "/home/dvg/dotfiles/linux/misc/German_de_DE.dic",
+    "/home/dvg/dotfiles/linux/misc/German_de_DE.aff",
+  ],
+  "dictCompletion.leastNumOfChars": 4,
+  "spellright.language": [
+    "English (British)"
+  ],
+  "spellright.documentTypes": [
+    "latex",
+    "plaintext",
+    "markdown"
+  ]
+}

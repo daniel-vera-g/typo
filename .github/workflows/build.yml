@@ -1,5 +1,5 @@
 name: Build
-# TODO change to only fire on tags/master/...
+# TODO change to only run on tags/master/...
 on: [create, pull_request]
 
 jobs:

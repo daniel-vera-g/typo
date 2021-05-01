@@ -1,0 +1,9 @@
+./README.md
+docs/latex.md
+docs/citations.md
+docs/customization.md
+docs/folders.md
+docs/ci-cd.md
+docs/tooling.md
+docs/language.md
+docs/npm.md
