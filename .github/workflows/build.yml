@@ -1,0 +1,45 @@
+name: Build
+# TODO change to only fire on tags/master/...
+on: [create, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.8.0
+        with:
+          access_token: ${{ github.token }}
+      - name: Checkout repository
+        uses: actions/checkout@master
+      # This step will retry until required check passes
+      # and will fail the whole workflow if the check conclusion is not a success
+      - name: Wait on tests
+        uses: lewagon/wait-on-check-action@v0.2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          wait-interval: 20 # seconds
+      - name: Install pandoc
+        run: |
+          wget https://github.com/jgm/pandoc/releases/download/2.12/pandoc-2.12-1-amd64.deb
+          sudo dpkg -i pandoc-2.12-1-amd64.deb
+          rm pandoc-2.12-1-amd64.deb
+      - name: Install latex and packages
+        run: |
+          sudo apt install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-lang-german
+      - name: Download eisvogel template and move to templates
+        run: |
+          wget https://github.com/Wandmalfarbe/pandoc-latex-template/releases/download/v2.0.0/Eisvogel-2.0.0.tar.gz
+          mkdir eisvogel-out
+          tar -xvzf Eisvogel-2.0.0.tar.gz -C eisvogel-out
+          mkdir -p ~/.pandoc/templates/
+          mv eisvogel-out/eisvogel.latex ~/.pandoc/templates/
+          rm -rf eisvogel-out Eisvogel-2.0.0.tar.gz
+      - name: Build PDF
+        run: |
+          make
+      - name: Save artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: document.pdf
+          path: ./document.pdf
