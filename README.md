@@ -65,7 +65,15 @@ check](https://github.com/daniel-vera-g/typo/actions/workflows/language.yml/badg
 1. Generate PDF: `make`
 2. Generate docx: `make docx`
 
-The next recipes make use of the _optional_ dependencies: 3. Generate PDF using the eisvogel 🐦 template: `make eisvogel` 4. Lint markdown files: `make lint` 5. Automatically try to fix markdown files: `make fix` 6. Try to format markdown files automatically: `make format` 7. Check language and grammar: `make check-lang` 8. Sync wordlist(See next chapter for details): `make sync-wl` 9. Convert svg files to pdf f.ex for the cover(Needs `inkscape` installed): `make svg-to-pdf`
+The next recipes make use of the _optional_ dependencies:
+
+3. Generate PDF using the eisvogel 🐦 template: `make eisvogel`
+4. Lint markdown files: `make lint`
+5. Automatically try to fix markdown files: `make fix`
+6. Try to format markdown files automatically: `make format`
+7. Check language and grammar: `make check-lang
+8. Sync wordlist(See next chapter for details): `make sync-wl`
+9. Convert svg files to pdf f.ex for the cover(Needs `inkscape` installed): `make svg-to-pdf`
 
 ### Using VScode
 
