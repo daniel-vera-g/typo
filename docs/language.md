@@ -3,7 +3,7 @@
 1. Grammar and spelling is automatically checked by github actions through
    [TeXtidote](https://github.com/sylvainhalle/textidote). It uses a dictionary
    for custom words located at `.github/mydict.txt`
-2. For local writing in VScode there are two main extensions:
+2. For local writing in VS Code there are two main extensions:
    [vscode-spell-checker](https://github.com/streetsidesoftware/vscode-spell-checker)
    and
    [vscode-spellright](https://github.com/bartosz-antosik/vscode-spellright).

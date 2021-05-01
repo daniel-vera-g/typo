@@ -68,6 +68,7 @@ check](https://github.com/daniel-vera-g/typo/actions/workflows/language.yml/badg
 The next recipes make use of the _optional_ dependencies:
 
 <!-- markdownlint-disable MD029 -->
+
 3. Generate PDF using the eisvogel 🐦 template: `make eisvogel`
 4. Lint markdown files: `make lint`
 5. Automatically try to fix markdown files: `make fix`
@@ -77,9 +78,9 @@ The next recipes make use of the _optional_ dependencies:
 9. Convert svg files to pdf f.ex for the cover(Needs `Inkscape` installed): `make svg-to-pdf`
 <!-- markdownlint-enable MD029 -->
 
-### Using VScode
+### Using VS Code
 
-> If you use VScode, you can run the commands above using VScode `tasks`
+> If you use VS Code, you can run the commands above using VS Code `tasks`
 
 Run the `Run Task` command or simply hit `Ctrl/Cmd + F9`:
 
