@@ -19,4 +19,4 @@ svg-to-pdf:
 sync-wl:
 	./scripts/sync-word-list.sh
 check-lang:
-	textidote --dict .github/mydict.txt --check de **/*.md
+  textidote --dict .github/mydict.txt --check en **/*.md

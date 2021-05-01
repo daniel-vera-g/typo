@@ -22,4 +22,4 @@ jobs:
       - name: Grammar/Spell check files
         run: |
           jq  -r '.words[]' .vscode/cspell.json   > .github/mydict.txt
-          textidote --dict .github/mydict.txt --check de **/*.md
+          textidote --dict .github/mydict.txt --check en **/*.md
