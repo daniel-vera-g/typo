@@ -35,7 +35,7 @@ check](https://github.com/daniel-vera-g/typo/actions/workflows/language.yml/badg
    - [The Pandoc Eisvogel template](https://github.com/Wandmalfarbe/pandoc-latex-template/): Awesome latex/markdown template
    - [TeXtidote](https://github.com/sylvainhalle/textidote): Latex/Markdown cli language/spell checker
    - [Prettier](https://prettier.io/): Format and prettify your documents
-   - [Mardownlint](https://github.com/igorshubovych/markdownlint-cli): Check/Fix your markdown files
+   - [Markdownlint](https://github.com/igorshubovych/markdownlint-cli): Check/Fix your markdown files
 
 ## Get started
 
@@ -67,13 +67,15 @@ check](https://github.com/daniel-vera-g/typo/actions/workflows/language.yml/badg
 
 The next recipes make use of the _optional_ dependencies:
 
+<!-- markdownlint-disable MD029 -->
 3. Generate PDF using the eisvogel 🐦 template: `make eisvogel`
 4. Lint markdown files: `make lint`
 5. Automatically try to fix markdown files: `make fix`
 6. Try to format markdown files automatically: `make format`
 7. Check language and grammar: `make check-lang`
 8. Sync wordlist(See next chapter for details): `make sync-wl`
-9. Convert svg files to pdf f.ex for the cover(Needs `inkscape` installed): `make svg-to-pdf`
+9. Convert svg files to pdf f.ex for the cover(Needs `Inkscape` installed): `make svg-to-pdf`
+<!-- markdownlint-enable MD029 -->
 
 ### Using VScode
 
@@ -81,7 +83,7 @@ The next recipes make use of the _optional_ dependencies:
 
 Run the `Run Task` command or simply hit `Ctrl/Cmd + F9`:
 
-![](./img/2021-05-01-12-24-13.png)
+![VS Code example](./img/2021-05-01-12-24-13.png)
 
 ## Development/Contributing 👨‍💻
 
