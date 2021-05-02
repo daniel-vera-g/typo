@@ -18,5 +18,5 @@ uses a `.txt` file, vscode-spell-checker a `.json` and vscode-spellright an
 `.dict` file.  
 As I only add words to the word list during writing, I copy the words from the
 vscode-spell-checker list (`.json`) to the one of TexTidote in the CI process
-with a simple `jq` script. See line 24 [here](./..github/workflows/language.yml)
+with a simple `jq` script. See line 24 [here](https://github.com/daniel-vera-g/typo/blob/master/.github/workflows/language.yml#L24)
 for more information.
