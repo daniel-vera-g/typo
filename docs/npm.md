@@ -4,7 +4,7 @@ If you don't want to install `prettier` and `markdownlint` globally, you can ins
 
 1. `npm init -y`
 2. `npm i markdownlint prettier`
-3. You can configure an npm script. For example:
+3. You can configure a npm script. For example:
 
 ```json
 [...]

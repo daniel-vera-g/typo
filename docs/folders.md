@@ -1,8 +1,8 @@
-# Use folders 📙
+# Use folders
 
 It is possible to separate concerns and use different folders for different
 topics/chapters. This probably helps to keep an overview and be more
-structured/organized as putting everything in one file 😄.  
+structured/organized as putting everything in one file.  
 For this, you need to:
 
 1. Create a new file. To group same files together, you could use folders

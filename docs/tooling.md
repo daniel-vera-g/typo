@@ -8,8 +8,8 @@
    - Or use <https://zbib.org/> to easily create references online
 3. [Bibtex](http://www.bibtex.org/): For integration into the markdown/latex
    documentation
-4. [Zettlr](https://www.zettlr.com/) or [VsCode](https://code.visualstudio.com/)
-   as Editor/IDE
+4. [Zettlr](https://www.zettlr.com/) or
+   [VS Code](https://code.visualstudio.com/) as Editor/IDE
 5. [Github actions](https://github.github.io/actions-cheat-sheet/actions-cheat-sheet.pdf)
 6. [Dictionary VS Code completion extension](https://github.com/yzhang-gh/vscode-dic-completion)
    to get completion through a local dictionary

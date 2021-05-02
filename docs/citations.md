@@ -1,4 +1,4 @@
-# Use citations/references 📖
+# Use citations/references
 
 To use a citation in markdown, do the following:
 

@@ -1,6 +1,6 @@
-# Use latex 🖊️
+# Use latex
 
-Most of the latex Syntax is supported with pandoc in markdown. If you for example
+Most of the latex Syntax is supported with Pandoc in markdown. If you for example
 would like to use latex Math expressions inside markdown, you would simply:
 
 ```latex

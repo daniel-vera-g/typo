@@ -1,7 +1,7 @@
 # Customization document
 
-You can customize the document by providing pandoc with arguments specific for
-the eisvogel template or for pandoc in general.  
+You can customize the document by providing Pandoc with arguments specific for
+the eisvogel template or for Pandoc in general.  
 To do this, just add them as parameters to the `pandoc` command in the
 `Makefile` or as argument in the `document-config.md`.
 
