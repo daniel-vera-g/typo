@@ -22,4 +22,5 @@ jobs:
       - name: Grammar/Spell check files
         run: |
           jq  -r '.words[]' .vscode/cspell.json >> .github/mydict.txt
-          textidote --dict .github/mydict.txt --check en **/*.md
+          LANG_FILES=$(find ./ -name "*.md" ! -name document-config.md  ! -path "./.github/**/*.md")
+          textidote --dict .github/mydict.txt --check en $LANG_FILES
