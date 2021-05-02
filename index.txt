@@ -1,4 +1,3 @@
-./README.md
 docs/latex.md
 docs/citations.md
 docs/customization.md
