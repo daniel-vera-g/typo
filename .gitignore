@@ -1,5 +1,9 @@
+# Custom
+
 *.pdf
 *.docx
+*.html
+
 # contains all sorts of unfinished changes
 private/
 
