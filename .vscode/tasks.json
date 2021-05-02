@@ -90,6 +90,6 @@
         "kind": "build",
         "isDefault": true
       }
-    },
+    }
   ]
 }
