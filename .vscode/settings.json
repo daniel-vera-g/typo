@@ -1,4 +1,5 @@
 {
+  "prettier.configPath": "./scripts/.prettierrc",
   "[markdown]": {
     "editor.quickSuggestions": {
       "other": true,
