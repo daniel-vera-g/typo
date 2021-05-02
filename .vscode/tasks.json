@@ -69,7 +69,17 @@
       "group": {
         "kind": "build",
         "isDefault": true
-      }
+      },
+    },
+    {
+      "label": "Generate grammar and language report",
+      "type": "shell",
+      "command": "make lang-report",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
     },
     {
       "label": "Sync wordlist",
