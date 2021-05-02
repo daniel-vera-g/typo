@@ -85,7 +85,7 @@ The next recipes make use of the _optional_ dependencies:
 
 <!-- markdownlint-disable MD029 -->
 
-3. Generate PDF using the eisvogel 🐦 template: `make eisvogel`
+3. Generate PDF using the eisvogel template: `make eisvogel`
 4. Lint markdown files: `make lint`
 5. Automatically try to fix markdown files: `make fix`
 6. Try to format markdown files automatically: `make format`
