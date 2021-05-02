@@ -9,7 +9,7 @@
   },
   "dictCompletion.externalUserDictFiles": [
     "/home/dvg/dotfiles/linux/misc/German_de_DE.dic",
-    "/home/dvg/dotfiles/linux/misc/German_de_DE.aff",
+    "/home/dvg/dotfiles/linux/misc/German_de_DE.aff"
   ],
   "dictCompletion.leastNumOfChars": 4,
   "spellright.language": [
