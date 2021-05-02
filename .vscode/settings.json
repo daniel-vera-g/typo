@@ -7,10 +7,7 @@
       "strings": true
     }
   },
-  "dictCompletion.externalUserDictFiles": [
-    "/home/dvg/dotfiles/linux/misc/German_de_DE.dic",
-    "/home/dvg/dotfiles/linux/misc/German_de_DE.aff"
-  ],
+  "dictCompletion.externalUserDictFiles": [],
   "dictCompletion.leastNumOfChars": 4,
   "spellright.language": [
     "English (British)"
