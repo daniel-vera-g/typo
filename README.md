@@ -5,7 +5,7 @@ You can track the progress
 [here](https://github.com/daniel-vera-g/typo/projects/1) and subscribe to the
 releases to get notified._
 
-> So you want to use the simplicity of markdown, but not give up the power of
+> You want to use the simplicity of markdown but not give up the power of
 > latex? Well, with this template you can use both and stay flexible 🚀
 
 [![Build](https://github.com/daniel-vera-g/typo/actions/workflows/build.yml/badge.svg)](https://github.com/daniel-vera-g/typo/actions/workflows/build.yml)
@@ -48,7 +48,7 @@ check](https://github.com/daniel-vera-g/typo/actions/workflows/language.yml/badg
 
 ## Get started
 
-1. Click the green `Use this template` button top right corner
+1. Click the green `Use this template` button on the top right corner
 2. Now you're ready to go 🚀: Just write your content using markdown and include
    you references or use latex as described below.
 
@@ -92,7 +92,7 @@ The next recipes make use of the _optional_ dependencies:
 7. Check language and grammar: `make check-lang`
 8. Generate an HTML language/grammar report you can see in the browser:
    `make lang-report`. The report output will be in an `lang-report.html` file.
-9. Sync word list(See next chapter for details): `make sync-wl`
+9. Sync word list(See _"How to check language"_ section for details): `make sync-wl`
 <!-- markdownlint-enable MD029 -->
 
 ### Using VS Code
