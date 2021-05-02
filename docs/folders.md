@@ -16,5 +16,5 @@ file3.md
 ...
 ```
 
-With this way, you can also structure your generated PDF/docx/... document. In the example above, the
-contents of file1 would come before the ones of file2.
+With this way, you can also structure your generated PDF/docx/... document. In
+the example above, the contents of file1 would come before the ones of file2.

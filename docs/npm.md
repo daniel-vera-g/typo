@@ -1,6 +1,7 @@
 # Use npm
 
-If you don't want to install `prettier` and `markdownlint` globally, you can install them locally:
+If you don't want to install `prettier` and `markdownlint` globally, you can
+install them locally:
 
 1. `npm init -y`
 2. `npm i markdownlint prettier`
