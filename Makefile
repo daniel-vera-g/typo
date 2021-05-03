@@ -11,9 +11,9 @@ eisvogel:
 docx:
 	pandoc document-config.md -o document.docx --listings --toc --top-level-division="chapter" --metadata date="`date -u '+%Y-%m-%d'`"  --citeproc $(FILES)
 lint:
-	markdownlint  -c './scripts/.markdownlintrc' -p './scripts/.markdownlintignore' --ignore node_modules '**/*.md'
+	markdownlint  -c './scripts/.markdownlintrc' -p './scripts/.markdownlintignore' '**/*.md'
 fix:
-	markdownlint -c './scripts/.markdownlintrc' -p './scripts/.markdownlintignore' --ignore node_modules -f **/*.md
+	markdownlint -c './scripts/.markdownlintrc' -p './scripts/.markdownlintignore' -f **/*.md
 format:
 	prettier -c './scripts/.prettierrc' --ignore-path './scripts/.prettierignore' --write '**/*.md'
 sync-wl:
