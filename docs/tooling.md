@@ -1,7 +1,7 @@
 # Helpful tooling
 
 1. Firefox/Browser bookmarks: To save all web references related to the project
-2. [Zothero](https://www.zotero.org/):
+2. [Zotero](https://www.zotero.org/):
    - References manager
    - Use Firefox to save all references and later export them into Zothero
    - To format and export all sources into Bibtex
