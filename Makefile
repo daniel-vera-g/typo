@@ -5,7 +5,7 @@ FILES=`cat index.txt`
 LANG_FILES:=$(shell find ./ -name "*.md" ! -name document-config.md  ! -path "./.github/**/*.md")
 
 build:
-	pandoc document-config.md -o document.pdf --from markdown --to latex --listings --toc --top-level-division="chapter" --metadata date="`date -u '+%Y-%m-%d'`"  --citeproc $(FILES)
+	pandoc --pdf-engine=xelatex document-config.md -o document.pdf --from markdown --to latex --listings --toc --top-level-division="chapter" --metadata date="`date -u '+%Y-%m-%d'`"  --citeproc $(FILES)
 eisvogel:
 	pandoc document-config.md -o document.pdf --from markdown --to latex --template eisvogel --listings --toc --top-level-division="chapter" --metadata date="`date -u '+%Y-%m-%d'`" --citeproc $(FILES)
 docx:
